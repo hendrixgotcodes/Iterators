@@ -1,15 +1,12 @@
 function newIterator(names){
-    let nextName = 0;
+    let currentName = 0;
 
     return{
         next: function(){
-
-            return nextName <= names.length ? {value: names[nextName++], done:false} : {done: true};
+            return currentName <= names.length ? {value: names[currentName++], done: false} : {done: true};
         }
     }
-
 }
-
 
 let talkatives = ["John", "Louis", "DJ", "Samuel Agyei", "Wilson","Joel"];
 
