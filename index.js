@@ -16,7 +16,4 @@ console.log(getTalkatives.next());
 console.log(getTalkatives.next());
 console.log(getTalkatives.next());
 console.log(getTalkatives.next());
-console.log(getTalkatives.next());
-console.log(getTalkatives.next());
-console.log(getTalkatives.next());
-console.log(getTalkatives.next());
+
